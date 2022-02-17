@@ -1,7 +1,7 @@
 require("@nomiclabs/hardhat-waffle");
 const projectId = "793b9e50583f483791a6cf49ae3c54b0";
 const fs = require("fs");
-const privateKey = fs.readFileSync(".secret").toString();
+const privateKey = fs.readFileSync("secret.data").toString();
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
